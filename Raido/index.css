@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./imagens/pop-music.jpg);
+}
+.master{
+    display: flex;
+    width: 790px;
+    height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #f00; */
+    box-sizing: border-box;
+    padding: 30px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;    
+}
+.table1{
+    background-color: green;
+    font-family: 'Arial Black';
+    color: mediumseagreen;    
+    font-size: 40px;
+}
+.table2{
+    background-color: rgb(0, 160,209);
+    color: white;
+}
+
+.div1, .div2{
+    width: 100%;
+}
+
+.div1 table, .div2 table{
+    width: 100%;
+}
+.btn_play{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    border-radius: 50%;
+    box-shadow: 0 0 15px black;
+    width: 230px;
+}
+.tfoot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
